@@ -66,7 +66,7 @@ const CodeEditor: React.FC<CodeEditorProps> = ({ onChange, initialValue }) => {
       </button>
       <MonacoEditor
         editorDidMount={onEditorDidMount}
-        value={initialValue}
+        value={"You must call the show and pass the code as an argument to execute the code"}
         theme="dark"
         language="javascript"
         height="100%"
